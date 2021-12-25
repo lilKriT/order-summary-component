@@ -37,10 +37,6 @@ main {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 .osc-container {
     width: 30%;
     margin: 0 auto;
@@ -80,7 +76,15 @@ a {
 }
 
 .osc-plan {
+    background-color: var(--very-pale-blue);
+    width: 80%;
+    margin: 3rem auto;
+    border-radius: 20px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
 }
 
 .osc-buttons {
@@ -93,7 +97,7 @@ a {
 }
 
 .osc-buttons a {
-
+    text-decoration: none;
 }
 
 .osc-primary-button {
