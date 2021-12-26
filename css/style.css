@@ -99,6 +99,7 @@ main {
     color: var(--dark-blue);
     font-weight: 900;
     margin-bottom: .4rem;
+    font-size: 1.6rem;
 }
 
 .osc-plan-pricing .osc-plan-price {
@@ -110,7 +111,7 @@ main {
 
 }
 
-.osc-plan-change a {
+.osc-plan-change a:link {
     color: var(--bright-blue);
     font-weight: 700;
     font-size: 1.4rem;
@@ -118,6 +119,11 @@ main {
 
 .osc-plan-change a:visited {
     color: var(--bright-blue);
+}
+
+.osc-plan-change a:hover {
+    text-decoration: none;
+    color: hsl(245, 67%, 66%);
 }
 
 .osc-buttons {
@@ -144,8 +150,16 @@ main {
     margin-bottom: 2rem;
 }
 
+.osc-primary-button:hover {
+    background-color: hsl(245, 67%, 66%);
+}
+
 .osc-secondary-button {
     color: #777;
     font-weight: 900;
     margin-bottom: 2rem;
+}
+
+.osc-secondary-button:hover {
+    color: var(--dark-blue);
 }
